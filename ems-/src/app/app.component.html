@@ -1,0 +1,15 @@
+<h1>HELLO !</h1>
+<button (click)="hello()">click</button><br>
+<a routerLink="./page1">NEXT</a><br>
+<a routerLink="./page2">LAST</a><br>
+<button (click)="page1page()">NEXT</button><br>
+<button (click)="page2page()">last</button><br>
+
+<input type="text" [(ngModel)]="value1"><br>
+<input type="text" [(ngModel)]="value2"><br>
+{{value1 | adder | uppercase}}<br>
+
+{{value2 | adder | lowercase}}<br>
+
+<router-outlet></router-outlet>
+
