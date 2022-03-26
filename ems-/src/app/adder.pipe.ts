@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class AdderPipe implements PipeTransform {
 
   transform(val1:any) {
-    return val1+'**********************'+5;
+    return val1+'*'+5;
   }
 
 }
